@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/og/logo.png" />
+    <meta name="theme-color" content="#6c9db8" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <title>Keep Confidential Data Private in AI Benchmark | ML Challenges</title>
+    <link rel="canonical" href="https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark" />
+    <meta name="description" content="How to run public AI benchmarks on protected data, using synthetic datasets or blind evaluation of submitted algorithms inside a secure environment, with a concrete Codabench setup." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="ML Challenges" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="ML Challenges" />
+    <meta property="og:title" content="Keep Confidential Data Private in AI Benchmark | ML Challenges" />
+    <meta property="og:description" content="How to run public AI benchmarks on protected data, using synthetic datasets or blind evaluation of submitted algorithms inside a secure environment, with a concrete Codabench setup." />
+    <meta property="og:url" content="https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark" />
+    <meta property="og:image" content="https://mlchallenges.com/og/blog.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Keep Confidential Data Private in AI Benchmark | ML Challenges" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Keep Confidential Data Private in AI Benchmark | ML Challenges" />
+    <meta name="twitter:description" content="How to run public AI benchmarks on protected data, using synthetic datasets or blind evaluation of submitted algorithms inside a secure environment, with a concrete Codabench setup." />
+    <meta name="twitter:image" content="https://mlchallenges.com/og/blog.jpg" />
+    <meta property="article:published_time" content="2025-10-10" />
+    <meta property="article:publisher" content="https://www.linkedin.com/company/ml-challenges" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark#post","headline":"Keep Confidential Data Private in AI Benchmark","description":"How to run public AI benchmarks on protected data, using synthetic datasets or blind evaluation of submitted algorithms inside a secure environment, with a concrete Codabench setup.","url":"https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark","image":"https://mlchallenges.com/blogs/keep-confidential-data-private-in-ai-benchmark/thumbnail.jpg","datePublished":"2025-10-10","dateModified":"2025-10-10","keywords":["Confidential Data","Private Benchmark"],"author":{"@id":"https://mlchallenges.com/#organization"},"publisher":{"@id":"https://mlchallenges.com/#organization"},"isPartOf":{"@id":"https://mlchallenges.com/blog#blog"},"inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mlchallenges.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://mlchallenges.com/blog"},{"@type":"ListItem","position":3,"name":"Keep Confidential Data Private in AI Benchmark","item":"https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark"}]}]}</script>
+    <script type="module" crossorigin src="/assets/index-C4Z1MnpR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DVrvYIB9.css">
+  </head>
+  <body>
+    <div id="root"><header class="border-b border-gray-200 bg-white"><div class="mx-auto max-w-7xl px-4 md:pl-0 md:pr-3 py-6 flex items-center justify-between"><div class="flex items-center gap-8 md:-ml-12"><a class="shrink-0" href="/" data-discover="true"><img src="/assets/logo-CanaD3sh.svg" alt="MLChallenges logo" class="h-8 w-auto"/></a><nav class="hidden md:flex items-center gap-7"><a class="text-base font-medium transition-colors text-black hover:text-brand-hover" href="/" data-discover="true">Home</a><a class="text-base font-medium transition-colors text-black hover:text-brand-hover" href="/about" data-discover="true">About</a><a class="text-base font-medium transition-colors text-black hover:text-brand-hover" href="/projects" data-discover="true">Projects</a><a class="text-base font-medium transition-colors text-black hover:text-brand-hover" href="/services" data-discover="true">Services</a><a aria-current="page" class="text-base font-medium transition-colors text-brand-hover" href="/blog" data-discover="true">Blog</a></nav></div><a class="hidden md:inline-flex items-center px-4 py-1.5 text-base font-medium border border-black text-black rounded-md hover:bg-brand-hover hover:border-brand-hover hover:text-white transition-colors md:-mr-12" href="/contact" data-discover="true">Contact</a><button class="md:hidden flex flex-col gap-1.5 p-1" aria-label="Toggle menu"><span class="block w-5 h-0.5 bg-gray-900 transition-transform "></span><span class="block w-5 h-0.5 bg-gray-900 transition-opacity "></span><span class="block w-5 h-0.5 bg-gray-900 transition-transform "></span></button></div></header><main><section class="px-6 py-16 max-w-4xl mx-auto"><p class="text-sm text-gray-400 mb-3">October 10, 2025</p><h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Keep Confidential Data Private in AI Benchmark</h1><div class="flex flex-wrap gap-2 mb-12"><span class="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded-full">Confidential Data</span><span class="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded-full">Private Benchmark</span></div><h1>Keep Confidential Data Private in AI Benchmark</h1>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">How to deploy <strong class="font-semibold text-gray-900">public benchmarks</strong> on <strong class="font-semibold text-gray-900">protected data</strong>?</h2>
+<p class="text-gray-600 leading-relaxed mb-4">AI competitions and benchmarks are <a href="https://mlchallenges.com/benefits-challenges/" class="text-brand-hover underline hover:opacity-80">extremely effective ways</a> of crowdsourcing science and solving complex problems. However, giving public access to data is absolutely out of the question in certain application domains where the data are sensitive, typically in medicine, but also in areas such as finance, defense, or education.</p>
+<p class="text-gray-600 leading-relaxed mb-4">Today, I&#x27;ll show you methods that make it possible to bridge the gap and organize impactful benchmarks or competitions on protected data. We&#x27;ll cover two approaches: <strong class="font-semibold text-gray-900">(1) using synthetic data</strong> and <strong class="font-semibold text-gray-900">(2) performing blind evaluation of the algorithms</strong>. Finally, I&#x27;ll provide <strong class="font-semibold text-gray-900">recommandations</strong> and show concrete — and simple — ways of implementing and <strong class="font-semibold text-gray-900">deploying such pipeline on the platform</strong> <a href="https://www.codabench.org/" class="text-brand-hover underline hover:opacity-80"><strong class="font-semibold text-gray-900">Codabench</strong></a>.</p>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Method 1 – Using synthetic data</h2>
+<p class="text-gray-600 leading-relaxed mb-4">The first method to organize benchmark on sensitive data is to generate a synthetic version of the dataset. This means training a <strong class="font-semibold text-gray-900">generative model</strong> to mimic the data, and creating a fake version of it, typically with non-existant patients or users.</p>
+<p class="text-gray-600 leading-relaxed mb-4">The problem with this approach is that it relies on the generation methodology, makes it difficult to guarantee true privacy, and forces participants to study artificial data that may behave differently from real data.</p>
+<ul class="list-disc list-inside text-gray-600 mb-4 space-y-1">
+<li class="leading-relaxed">✅ Can share the dataset to participants</li>
+<li class="leading-relaxed">❌ Tricky to have security guarantees</li>
+<li class="leading-relaxed">❌ Not working on the real data</li>
+</ul>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Method 2 – Blind evaluation of the algorithms</h2>
+<p class="text-gray-600 leading-relaxed mb-4">The second method consists in keeping the data hidden inside computing servers that receive participants&#x27; algorithms, evaluate them blindly on the data, and returns scores and logs output.</p>
+<p class="text-gray-600 leading-relaxed mb-4">In this setup, the organizers keep a <strong class="font-semibold text-gray-900">full control on their dataset</strong>, and the participants send their models as <strong class="font-semibold text-gray-900">code submissions</strong>. It is more computationnaly demanding, but it guaranties data privacy and allows participants to work on the real data.</p>
+<ul class="list-disc list-inside text-gray-600 mb-4 space-y-1">
+<li class="leading-relaxed">❌ Participants can&#x27;t access the data their are working on</li>
+<li class="leading-relaxed">✅ Data security is guaranteed</li>
+<li class="leading-relaxed">✅ Working on the real data</li>
+</ul>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Recommandation</h2>
+<p class="text-gray-600 leading-relaxed mb-4">The second approach, <strong class="font-semibold text-gray-900">blindly evaluate algorithms in a closed environment</strong>, is the prefered method. In order to help participants dive into the challenge, and have data at hand to be able to develop their solutions, organizers can use generative models (like in the first approach) to create and share a sample dataset. This way, participants have a clear idea of the dataset form, while the final evaluation is performed on the true dataset, guarded inside the computing machines.</p>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Concrete implementation</h2>
+<p class="text-gray-600 leading-relaxed mb-4">The platform <a href="https://www.codabench.org/" class="text-brand-hover underline hover:opacity-80">Codabench</a> enables this design, making it possible to benchmark AI models on sensitive fields such as medecine, industry, or user data.</p>
+<p class="text-gray-600 leading-relaxed mb-4">The setup is simple: as a competition organizer, you can connect your own computing resources (either <em>on premise</em> or <em>cloud computing</em>) to your benchmark. The evaluation program is fully customizable and can read the data in the way you decide. By storing the data directly inside your machines, you ensure that nobody can access it, even if you benchmark is setup on Codabench&#x27;s public server. You control the output scores, logs and plots participants receive to evaluate their solutions and populate the leaderboard.</p>
+<p class="text-gray-600 leading-relaxed mb-4"><img src="/blogs/keep-confidential-data-private-in-ai-benchmark/implementation.png" alt="Implementation" class="w-full rounded-xl my-6 object-cover"/></p>
+<p class="text-gray-600 leading-relaxed mb-4">Organizers keep a full control over their data, even if the benchmark is deployed on Codabench&#x27;s public server.</p>
+<p class="text-gray-600 leading-relaxed mb-4">This protocol was validated by <a href="https://www.dassault-aviation.com/fr/" class="text-brand-hover underline hover:opacity-80">Dassault-Aviation</a> security engineers. Concrete implementation details are given in <a href="https://wiki.codabench.org/latest/Organizers/Running_a_benchmark/Compute-Worker-Management---Setup/#optional-put-data-directly-inside-the-compute-worker" class="text-brand-hover underline hover:opacity-80">Codabench&#x27;s documentation</a>.</p>
+<h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Conclusion</h2>
+<p class="text-gray-600 leading-relaxed mb-4">Evaluating AI models on sensitive data is crucial across many application domains. To make this possible, two main strategies exist: creating synthetic versions of the data, or <strong class="font-semibold text-gray-900">evaluating submitted algorithms within a secure, closed environment</strong>. The latter approach is generally preferred, and can be effectively implemented in the platform <strong class="font-semibold text-gray-900">Codabench</strong>.</p>
+<p class="text-gray-600 leading-relaxed mb-4">By enabling privacy-preserving evaluations while maintaining scientific rigor, such platforms make it possible to turn protected datasets into <strong class="font-semibold text-gray-900">public benchmarks</strong>. This greatly accelerates research progress, and helps bridge the gap between real-world applications and open science.</p></section></main><footer class="text-white" style="background-image:url(/assets/bg-lg-CZfLmGvM.png);background-size:cover;background-position:center"><div class="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12"><div class="flex flex-col gap-5"><img src="/assets/logo-white-CpM2B_TX.svg" alt="ML Challenges" class="h-10 w-auto self-start"/><div><h3 class="font-semibold text-white mb-3">Let&#x27;s Connect</h3><div class="flex items-center gap-3"><a href="mailto:contact@mlchallenges.com" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path></svg></a><a href="https://linkedin.com/company/ml-challenges" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" class="bi bi-linkedin"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"></path></svg></a></div></div></div><div><h3 class="font-semibold text-white mb-5">Quick Links</h3><ul class="flex flex-col gap-3"><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/" data-discover="true">Home</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/about" data-discover="true">About</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/projects" data-discover="true">Projects</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/services" data-discover="true">Services</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/blog" data-discover="true">Blog</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/contact" data-discover="true">Contact</a></li></ul></div><div><h3 class="font-semibold text-white mb-5">Resources</h3><ul class="flex flex-col gap-3"><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/contact" data-discover="true">Help &amp; Support</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/terms" data-discover="true">Terms of Service</a></li><li><a class="text-sm text-white/80 hover:text-white transition-colors" href="/privacy" data-discover="true">Privacy Policy</a></li></ul></div></div><div class="border-t border-white/20 py-5 text-center bg-black/50"><p class="text-sm text-white/70">© ML Challenges <!-- -->2026<!-- -->. All rights reserved.</p></div></footer></div>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // Restores the real URL that 404.html encoded, before React Router mounts.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+# ML Challenges
+
+> ML Challenges designs, builds and runs AI competitions and benchmarks for research labs,
+> industry leaders and international conferences. We are core contributors to Codabench,
+> the open-source platform for AI benchmarks and competitions.
+
+Based in the Paris area, France. Working worldwide. Contact: contact@mlchallenges.com
+
+- 11 projects completed
+- €1M+ total prize pool
+- 200+ organizers supported
+- 5+ countries reached
+
+## What we do
+
+- [Services](https://mlchallenges.com/services): competition organization, benchmark setup, dedicated Codabench
+  deployments, technical setup, scientific expertise, and evaluation on confidential
+  medical or industrial data.
+- [About](https://mlchallenges.com/about): who we are and how we work.
+- [Contact](https://mlchallenges.com/contact): how to reach us, plus answers to common questions.
+
+## Team
+
+- Adrien Pavão, Founder, Benchmark Scientist
+- Ihsan Ullah, Co-Founder, Research Software Engineer
+- Abderrahmane Moujar, AI Research Engineer
+- Mariéle Brambila, Communications and Partnerships Manager
+
+## Projects
+
+### Competitions
+
+- [FinSurvival Challenge](https://mlchallenges.com/projects#fin-survival-challenge) (2025): Advancing survival modeling for financial transactions. $1,750 prize pool. with ICAIF'25 Conference, ChaLearn, Ava Labs, Rensselaer Polytechnic Institute. Website: https://finsurvival.github.io/, Competition: https://www.codabench.org/competitions/10561.
+- [NeurIPS Concordia Contest](https://mlchallenges.com/projects#neurips-concordia-contest-2024) (2024): Cooperative intelligence for AI agents. $10,000 prize pool. with Google DeepMind, Cooperative AI Foundation. Homepage: https://www.cooperativeai.com/contests/concordia-2024, Competition: https://www.codabench.org/competitions/3888/.
+- [FAIR Universe – HiggsML Uncertainty Challenges](https://mlchallenges.com/projects#fair-universe-higgsml-uncertainty-challenges) (2023–2025): Handling systematic uncertainties in fundamental science. with Lawrence Berkeley National Laboratory, Université Paris-Saclay, University of Washington, ChaLearn. Project website: https://fair-universe.lbl.gov/, Competition: https://www.codabench.org/competitions/2164/.
+- [L2RPN 2023](https://mlchallenges.com/projects#l2rpn-2023) (2023): Learning to Run a Power Network. €500,000 research grant. with RTE (Réseau de Transport d'Électricité), Région Île-de-France. Competition: https://www.codabench.org/competitions/1559/, Analysis paper: https://www.sciencedirect.com/science/article/pii/S2666546825000965.
+- [Cross-Domain MetaDL](https://mlchallenges.com/projects#cross-domain-metadl) (2022): Any-way any-shot cross-domain few-shot learning. €4,000 prize pool across 5 leagues. with NeurIPS 2022 Competition Track, ChaLearn. Competition: https://codalab.lisn.upsaclay.fr/competitions/3627#learn_the_details, Report: https://drive.google.com/file/d/1PFOKzZ5SIyPFLom0hHNyA0uyeX_Ribne/view, MetaDL series: https://metalearning.chalearn.org/.
+- [AI4Industry Challenge](https://mlchallenges.com/projects#ai-4-industry-challenge) (2020): Predictive maintenance from aeronautical data. €500,000 research grant. with Dassault Aviation, Région Île-de-France. Press release: https://www.dassault-aviation.com/en/group/press/press-kits/dassault-aviation-partners-the-paris-region-challenge-ai-for-industry-2020/, ICMLA paper: https://ieeexplore.ieee.org/document/9680054.
+- [AutoDL Challenge Series](https://mlchallenges.com/projects#autodl) (2019–2020): Automated deep learning across domains. €19,500 prize pool. with ChaLearn, 4Paradigm. Website: https://autodl.chalearn.org/.
+
+### Hackathons
+
+- [EDF Hackathon 2026](https://mlchallenges.com/projects#edf-hackathon-2026) (upcoming): with EDF (Électricité de France).
+- [EDF Hackathon 2025](https://mlchallenges.com/projects#edf-hackathon-2025) (2025): Price forecasting for smart charging. 120+ participants. with EDF (Électricité de France).
+
+### Platform & projects
+
+- [Codabench](https://mlchallenges.com/projects#codabench) (Ongoing): The open-source platform for AI benchmarks and competitions. 30,000 users · 500 public competitions. with ChaLearn, LISN, Université Paris-Saclay. Platform: https://www.codabench.org/, Source code: https://github.com/codalab/codabench/, Documentation: https://wiki.codabench.org/latest/, White paper: https://arxiv.org/abs/2110.05802.
+- [NeurIPS Checklist Assistant](https://mlchallenges.com/projects#neurips-checklist-assistant) (2024): Can LLMs help authors meet submission standards? with NeurIPS 2024, ChaLearn. Assistant: https://www.codabench.org/competitions/2338/, NeurIPS blog: https://blog.neurips.cc/2024/05/07/soliciting-participants-for-the-neurips-2024-checklist-assistant-study/.
+
+All projects are on a single page: https://mlchallenges.com/projects
+
+## Blog
+
+- [Keep Confidential Data Private in AI Benchmark](https://mlchallenges.com/blog/keep-confidential-data-private-in-ai-benchmark) (2025-10-10): How to run public AI benchmarks on protected data, using synthetic datasets or blind evaluation of submitted algorithms inside a secure environment, with a concrete Codabench setup.
+- [What is Codabench](https://mlchallenges.com/blog/what-is-codabench) (2025-05-10): Codabench is an open-source platform for organizing scientific challenges and benchmarks in AI. An overview of its features, its usage statistics and the community behind it.
+- [The Benefits of Organizing AI Challenges](https://mlchallenges.com/blog/benefits-of-organizing-ai-challenges) (2024-07-15): Why hosting a competition or a benchmark is an effective way to address complex AI problems: it drives performance and innovation, and it avoids the inventor-evaluator bias.
+- [ML Challenges: result submission VS code submission](https://mlchallenges.com/blog/result-vs-code-submission) (2024-06-20): Should participants upload their predictions or their code? A comparison of the two competition formats, and why code submission gives better reproducibility and a more robust benchmark.
+- [A brief history of competitions in machine learning](https://mlchallenges.com/blog/a-brief-history-of-competitions-in-machine-learning) (2024-06-15): From the brachistochrone problem posed by Johann Bernoulli in 1696 to modern AI competition platforms, a history of how challenges have shaped machine learning research.
+- [Beyond Accuracy: Exploring Exotic Metrics for Holistic Evaluation of Machine Learning Models](https://mlchallenges.com/blog/exploring-exotic-metrics-for-holistic-evaluation) (2024-06-10): Beyond accuracy, precision and recall: unconventional evaluation metrics covering fairness, privacy, calibration, energy and data consumption, and behavioral testing of models.
+
+## Frequently asked questions
+
+### What kind of problems can be tackled by challenges?
+
+Crowd-sourced competitions and benchmarks can be used to tackle virtually any machine learning problems, such as, among others, classification, regression, reinforcement learning and automated machine learning. Any field of application can be studied too. The main requirement is to define a quantitative metric that can be used to rank participants' submissions.
+
+### On which online platform do you host challenges?
+
+Although we are platform-agnostic, we strongly recommend using Codabench.
+
+### How much time does it take to organize a challenge?
+
+The time needed to organize a challenge greatly vary from one project to another. An usual time is around 3 months for the preparation, and around 2 months of open participation phase.
+
+### Where do the prizes come from?
+
+The prize pool destinated to the winners of the challenge are usually founded by sponsors or by the organizers.
+
+### What is the difference between competition and benchmark?
+
+A competition is an event limited in duration, where participants compete for a prize. A benchmark is a cooperative process aiming at identifying the best methods to solve a problem. While the objectives are different, the practical process is fairly similar in both cases.
+
+### What is the cost of the service you offer?
+
+The cost of our service can vary depending on the work time required by the project. For instance, a simple result submissions competition on Codabench's main server is quicker to organize than a code submissions competition on a dedicated server. Please reach us to discuss your own project.
+
+Indicative rate: €100 per hour
+
+## Optional
+
+- [Full text of every project and article](https://mlchallenges.com/llms-full.txt)
+- [Sitemap](https://mlchallenges.com/sitemap.xml)

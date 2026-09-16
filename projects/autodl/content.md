@@ -1,1 +1,0 @@
-The [Automated Deep Learning Challenge](https://autodl.chalearn.org/) is a series of Automated Machine Learning (AutoML) competitions applied to various domains such as image, video, text, speech, and tabular data, where Deep Learning excels.

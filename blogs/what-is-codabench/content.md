@@ -1,6 +1,6 @@
 ## 🌐 What is Codabench?
 
-[Codabench](https://www.codabench.org/) is a web-based platform designed for organizing scientific challenges and benchmarks in Artificial Intelligence. In practice, the system allows AI algorithms to compete on various tasks, enabling the collaborative production of science across multiple fields, like medicine, physics, linguistics, economics, or ecology.is a web-based platform for organizing scientific challenges and benchmarks in Artificial Intelligence. The system allows AI algorithms to compete on various tasks, enabling collaborative scientific production across fields like medicine, physics, linguistics, economics, and ecology.
+[Codabench](https://www.codabench.org/) is a web-based platform designed for organizing scientific challenges and benchmarks in Artificial Intelligence. In practice, the system allows AI algorithms to compete on various tasks, enabling the collaborative production of science across multiple fields, like medicine, physics, linguistics, economics, or ecology.
 
 The platform is developed and hosted primarily in France 🇫🇷, at [LISN](https://www.lisn.upsaclay.fr/), Université Paris-Saclay.
 

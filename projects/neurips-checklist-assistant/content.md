@@ -1,8 +1,5 @@
-## Overview
+## Why this matters
 
-We are excited to announce a study to understand if Large Language Models (LLMs) can serve as an assistant to help authors verify their submission against the NeurIPS Paper Checklist. This study is a first step towards understanding if LLMs can be used to enhance the quality of submissions at NeurIPS. We invite authors intending to submit a paper to NeurIPS to participate in this study by pre-registering through our online form, before the abstract submission deadline. Participants will gain access to an experimental LLM assistant (on or shortly before the abstract submission deadline), which will provide feedback on if their paper submission complies with NeurIPS submission standards, and are asked to fill out two short surveys describing their experiences with the LLM assistant. Due to limited computational resources, participation may be limited, and will be offered on a first-come, first-served basis.
-
-## Why This Matters
 
 The NeurIPS Paper Checklist is a series of yes/no questions that help authors check if their work meets reproducibility, transparency, and ethical research standards expected for papers at NeurIPS, and is a critical component in maintaining the high standards of research presented at the conference. By ensuring that submissions adhere to this checklist, we uphold the scientific rigor and transparency that NeurIPS aims for.
 
@@ -57,9 +54,3 @@ The principal organizers of this experiment are: Ihsan Ullah, Alexander Goldberg
 In preparing this experiment, we received advice and help from many people. We are particularly grateful to the NeurIPS'24 organizers, including General Chair Amir Globerson, Program Chairs Danielle Belgrave, Cheng Zhang, Angela Fan, Jakub Tomczak, Ulrich Paquet, and workflow team member Babak Rahmani, for participating in brainstorming discussions and contributing to the design. We have also received inputs and encouragement from Andrew McCallum of OpenReview, Anurag Acharya from Google Scholar, and Tristan Neuman from the NeurIPS board. Several volunteers have contributed ideas and helped with various aspects of the preparation, including Jeremiah Liu, Lisheng Sun, Paulo Henrique Couto, Michael Brenner, Neha Nayak Kennard, and Adrien Pavao.
 
 We are grateful to Marc Schoenauer for supporting this effort with an INRIA Google Research grant. We acknowledge the support of ChaLearn and of the ANR Chair of Artificial Intelligence HUMANIA ANR-19-CHIA-0022.
-
-## References
-
-Competition website: [Link](https://www.codabench.org/competitions/2338/)
-
-NeurIPS Blog: [Link](https://blog.neurips.cc/2024/05/07/soliciting-participants-for-the-neurips-2024-checklist-assistant-study/)
