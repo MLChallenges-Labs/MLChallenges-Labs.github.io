@@ -14,8 +14,8 @@ We also deploy and operate dedicated instances of the platform for clients who n
 
 ## Impact
 
-Codabench and its predecessor CodaLab rank among the largest global actors in AI competitions, hosting one of the highest numbers of competitions worldwide. Two years after its official launch in August 2023, the main server counts:
+Codabench and its predecessor CodaLab rank among the largest global actors in AI competitions, hosting one of the highest numbers of competitions worldwide. Since its official launch in August 2023, the main server counts:
 
-- **30,000 users**
-- **500 public competitions**
-- Over **200,000 algorithm submissions** from participants
+- **80,000 users**
+- **1,500 public competitions**
+- Over **700,000 algorithm submissions** from participants

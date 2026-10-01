@@ -46,7 +46,7 @@ Based in the Paris area, France. Working worldwide. Contact: contact@mlchallenge
 
 ### Platform & projects
 
-- [Codabench](https://mlchallenges.com/projects#codabench) (Ongoing): The open-source platform for AI benchmarks and competitions. 30,000 users · 500 public competitions. with ChaLearn, LISN, Université Paris-Saclay. Platform: https://www.codabench.org/, Source code: https://github.com/codalab/codabench/, Documentation: https://wiki.codabench.org/latest/, White paper: https://arxiv.org/abs/2110.05802.
+- [Codabench](https://mlchallenges.com/projects#codabench) (Ongoing): The open-source platform for AI benchmarks and competitions. 80,000 users · 1,500 public competitions. with ChaLearn, LISN, Université Paris-Saclay. Platform: https://www.codabench.org/, Source code: https://github.com/codalab/codabench/, Documentation: https://wiki.codabench.org/latest/, White paper: https://arxiv.org/abs/2110.05802.
 - [NeurIPS Checklist Assistant](https://mlchallenges.com/projects#neurips-checklist-assistant) (2024): Can LLMs help authors meet submission standards? with NeurIPS 2024, ChaLearn. Assistant: https://www.codabench.org/competitions/2338/, NeurIPS blog: https://blog.neurips.cc/2024/05/07/soliciting-participants-for-the-neurips-2024-checklist-assistant-study/.
 
 All projects are on a single page: https://mlchallenges.com/projects
