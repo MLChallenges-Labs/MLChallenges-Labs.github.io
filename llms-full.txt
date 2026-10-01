@@ -18,9 +18,6 @@ Competition: https://www.codabench.org/competitions/10561
 
 Survival modeling is the statistical prediction of the time until a specific event occurs, and it holds immense value across the financial sector. It is used to estimate the time until loan repayment or default and to predict portfolio churn, which gives critical insights for risk management, strategic planning and customer retention. Winning teams presented their solutions at the ICAIF'25 conference.
 
-![Award ceremony at ICAIF'25](finsurvival-event.jpeg)
-*Award ceremony at ICAIF'25*
-
 ---
 
 ## NeurIPS Concordia Contest — Cooperative intelligence for AI agents
@@ -184,9 +181,6 @@ ICMLA paper: https://ieeexplore.ieee.org/document/9680054
 
 An ambitious time series regression contest on aeronautical data for predictive maintenance, where gradient boosted tree methods excelled. The winning team, Aquila Data Enabler, won a research grant and started a collaboration with Dassault Aviation to pursue the research and deploy their solution on production systems.
 
-![Award ceremony at Dassault Aviation](dassault.png)
-*Award ceremony at Dassault Aviation*
-
 ---
 
 ## AutoDL Challenge Series — Automated deep learning across domains
@@ -223,9 +217,6 @@ The power system has to keep supply and demand balanced at every horizon, from i
 
 Today, several operational entities of EDF (DOAAT, SEI, Enedis) rely on ReEF (Renewable Energy Forecasts), a model built by EDF R&D on multilinear regression, for their daily solar and wind forecasts. ReEF served as the baseline, and the question was simple: can other kinds of models lower the forecast error, region by region and for France as a whole?
 
-![Teams presenting their results](hackathon-enr.jpg)
-*Teams presenting their results*
-
 ---
 
 ## EDF Challenge Data Science 2026 — Designing profitable urban heat networks
@@ -248,9 +239,6 @@ Heat networks are one of the main levers to decarbonize cities, but they need la
 
 Teams had less than 2 minutes per instance to get as close as possible to the optimum. They could use heuristics, graph reduction, machine learning to pre-select promising customers or pipes, or relaxed versions of the problem to guide the search. The winner was the team with the highest total profit over all test instances.
 
-![A team presenting its approach](edf-2026.jpg)
-*A team presenting its approach*
-
 ---
 
 ## EDF Hackathon 2025 — Price forecasting for smart charging
@@ -266,9 +254,6 @@ Keywords: Smart Charging, Price Forecasting, Energy
 
 ![Introductory speech](introductory-speech.jpg)
 *Introductory speech*
-
-![The organizers](the-organizers.jpg)
-*The organizers*
 
 ---
 
@@ -308,9 +293,6 @@ Codabench and its predecessor CodaLab rank among the largest global actors in AI
 - **30,000 users**
 - **500 public competitions**
 - Over **200,000 algorithm submissions** from participants
-
-![Presenting Codabench at Université de Bordeaux](codabench-presentation.jpg)
-*Presenting Codabench at Université de Bordeaux*
 
 ---
 
