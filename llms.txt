@@ -40,7 +40,8 @@ Based in the Paris area, France. Working worldwide. Contact: contact@mlchallenge
 
 ### Hackathons
 
-- [EDF Hackathon 2026](https://mlchallenges.com/projects#edf-hackathon-2026) (upcoming): with EDF (Électricité de France).
+- [Wind Forecast EDF R&D Hackathon](https://mlchallenges.com/projects#wind-forecast-edf-hackathon) (2026): Regional wind power forecasting in France. with EDF R&D.
+- [EDF Challenge Data Science 2026](https://mlchallenges.com/projects#edf-hackathon-2026) (2026): Designing profitable urban heat networks. with EDF (Électricité de France).
 - [EDF Hackathon 2025](https://mlchallenges.com/projects#edf-hackathon-2025) (2025): Price forecasting for smart charging. 120+ participants. with EDF (Électricité de France).
 
 ### Platform & projects

@@ -19,3 +19,6 @@ Codabench and its predecessor CodaLab rank among the largest global actors in AI
 - **30,000 users**
 - **500 public competitions**
 - Over **200,000 algorithm submissions** from participants
+
+![Presenting Codabench at Université de Bordeaux](codabench-presentation.jpg)
+*Presenting Codabench at Université de Bordeaux*
